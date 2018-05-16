@@ -118,29 +118,29 @@ namespace statistic
 
             Console.BackgroundColor = ConsoleColor.Cyan;
             Console.ForegroundColor = ConsoleColor.DarkGreen;
-            Console.WriteLine("A型人數: {0}    {1:0}% ", Acount, A);
-            Console.WriteLine("B型人數: {0}    {1:0}% ", Bcount, B);
-            Console.WriteLine("O型人數: {0}    {1:0}% ", Ocount, O);
-            Console.WriteLine("AB型人數: {0}   {1:0}%", ABcount, AB);
+            Console.WriteLine("A型人數: {0}    {1:0}%", Acount, A);
+            Console.WriteLine("B型人數: {0}     {1:0}%", Bcount, B);
+            Console.WriteLine("O型人數: {0}    {1:0}%", Ocount, O);
+            Console.WriteLine("AB型人數: {0}     {1:0}%", ABcount, AB);
             
             Console.BackgroundColor = ConsoleColor.Gray;
             Console.ForegroundColor = ConsoleColor.DarkGreen;
             Console.WriteLine("男生身高總和:" + boysum);
-            Console.WriteLine("男生身高平均:" + (boysum / boyNumb));
+            Console.WriteLine("男生身高平均:" + (boysum / boyNumb) +"  ");
 
             Console.BackgroundColor = ConsoleColor.DarkGray;
             Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine("女生身高總和:" + girlsum);
-            Console.WriteLine("女生身高平均:" + (girlsum / girlNo));
+            Console.WriteLine("女生身高總和:" + girlsum +" ");
+            Console.WriteLine("女生身高平均:" + (girlsum / girlNo) + "  ");
 
             Console.BackgroundColor = ConsoleColor.Gray;
             Console.ForegroundColor = ConsoleColor.Magenta;
             Console.WriteLine("全班身高總和:" + sum);
-            Console.WriteLine("全班身高平均:" + (sum / all));
+            Console.WriteLine("全班身高平均:" + (sum / all) + "  ");
 
             Console.BackgroundColor = ConsoleColor.DarkCyan;
             Console.ForegroundColor = ConsoleColor.White;
-            Console.WriteLine("天蠍座O型的人數:" + people);
+            Console.WriteLine("天蠍座O型的人數:" + people + " ");
 
             // 辨別天蠍座O型的人
             Console.Write("天蠍座O型的人有:");
